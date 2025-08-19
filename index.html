@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rent Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Rent Management System</h1>
+
+        <div class="section">
+            <h2>Employees</h2>
+            <button id="addEmployeeBtn">Add Employee</button>
+            <div id="employeeList"></div>
+        </div>
+
+        <div class="section">
+            <h2>Unemployed</h2>
+            <button id="addUnEmployeeBtn">Add Unemployed</button>
+            <div id="unEmployeeList"></div>
+        </div>
+
+        <div class="section">
+            <h2>Renters</h2>
+            <button id="addRentBtn">Add Renter</button>
+            <div id="rentList"></div>
+        </div>
+
+        <div class="section">
+            <button id="calculateBtn">Calculate Total</button>
+        </div>
+
+        <div class="total">
+            <h3>Summary</h3>
+            <p>Employee Total: <span id="totalEmployees">0</span></p>
+            <p>Unemployed Total: <span id="totalUnemployees">0</span></p>
+            <p>Rent Total: <span id="totalRent">0</span></p>
+            <p><strong>Total Outcome: <span id="totalOutcome">0</span></strong></p>
+        </div>
+
+        <div class="finalList">
+            <h3>Complete List</h3>
+            <ul id="finalList"></ul>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
